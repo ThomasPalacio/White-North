@@ -1,0 +1,57 @@
+
+/* Edicion de index.html*/
+.homeMarca{
+    @include condicion(white);
+    @include tipografiaLogo(100px);
+}
+.homeMarca::first-letter{
+    color: nth($colores, 2 );
+}
+
+.homeEslogan{
+    color: nth($colores, 4 );
+    @include tipografiaLogo(75px);
+    border: 5px solid nth($colores, 2 );
+    background-image: url(../images/corriendo.jpg);
+    @include propiedadBackground(none);
+}
+.homeEslogan::first-line{
+    color: nth($colores, 2);
+}
+
+
+.home__destacados{
+    width:300px;
+    height:300px;
+    border: 5px groove nth($colores, 2 );
+    transition: all 1s;
+    z-index: 1;
+}
+
+
+.home__destacados:hover{
+    transform:scale(1.30); 
+}
+
+
+.motivacion{
+    background-image: url(../images/motivacion.jpg);
+    @include propiedadBackground(30em);
+}
+
+.motivacion__frase{
+    color: nth($colores, 2);
+    @include tipografiaFrase(60px);
+}
+.motivacion__frase:hover{
+    animation: fraseMotivacion 3s;
+}
+@keyframes fraseMotivacion{
+    10%{
+        color: #f0efee;
+    }
+    to{
+        color: #f1af09;
+    }
+}
+

@@ -1,0 +1,471 @@
+@charset "UTF-8";
+/* Import desde componentes */
+/* Edicion del MENU */
+.header__logo {
+  width: 3.5em;
+  height: 4em;
+  border: 50px;
+}
+
+.header__menu:hover {
+  font-weight: 700;
+}
+
+/* Edicion general de footer */
+footer {
+  background: linear-gradient(to top, #c7c7c7, white);
+  margin-top: 10px;
+}
+
+.footer__icons {
+  width: 30px;
+  height: 30px;
+  border-radius: 70px;
+}
+
+.footer__logo {
+  width: 70px;
+  height: 55px;
+  border-radius: 4px;
+}
+
+.footer_marca {
+  color: white;
+  -webkit-text-stroke: 1px #030303;
+  font-family: "Krona One", sans-serif;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  font-style: oblique;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.footer_marca::first-letter {
+  color: #030303;
+}
+
+.footer__informacion {
+  color: #030303;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Edicion de body general*/
+body {
+  background-image: url(../images/fondo.jpg);
+  background-size: cover;
+  color: black;
+  background-color: #cecece;
+}
+
+/* Edicion de Redes sociales que se encuentran en fixed*/
+.iconosDeRedesSociales {
+  position: fixed;
+  right: 0;
+  top: 35%;
+}
+
+.fixed__icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 70px;
+}
+
+/* Edicion de index.html*/
+.homeMarca {
+  color: white;
+  -webkit-text-stroke: 1px #030303;
+  font-family: "Krona One", sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  font-style: oblique;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.homeMarca::first-letter {
+  color: #030303;
+}
+
+.homeEslogan {
+  color: #f8f8f8;
+  font-family: "Krona One", sans-serif;
+  font-size: 75px;
+  font-weight: bolder;
+  text-align: center;
+  font-style: oblique;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  border: 5px solid #030303;
+  background-image: url(../images/corriendo.jpg);
+  background-attachment: local;
+  height: none;
+  background-repeat: no-repeat;
+  box-shadow: 15px 10px 5px black;
+  background-position: center;
+  background-size: cover;
+}
+
+.homeEslogan::first-line {
+  color: #030303;
+}
+
+.home__destacados {
+  width: 300px;
+  height: 300px;
+  border: 5px groove #030303;
+  transition: all 1s;
+  z-index: 1;
+}
+
+.home__destacados:hover {
+  transform: scale(1.3);
+}
+
+.motivacion {
+  background-image: url(../images/motivacion.jpg);
+  background-attachment: local;
+  height: 30em;
+  background-repeat: no-repeat;
+  box-shadow: 15px 10px 5px black;
+  background-position: center;
+  background-size: cover;
+}
+
+.motivacion__frase {
+  color: #030303;
+  font-family: "Pattaya", sans-serif;
+  font-size: 60px;
+  width: 80%;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.motivacion__frase:hover {
+  animation: fraseMotivacion 3s;
+}
+
+@keyframes fraseMotivacion {
+  10% {
+    color: #f0efee;
+  }
+  to {
+    color: #f1af09;
+  }
+}
+/* Edit de contenido de contacto.html */
+.tituloContacto {
+  font-family: "Lobster", "cursive";
+  text-align: center;
+  font-size: 60px;
+  color: #030303;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 10px solid black;
+}
+
+.tituloContacto::after {
+  content: ⚪;
+}
+
+.tituloContacto::before {
+  content: ⚪;
+}
+
+.formulario {
+  width: 50em;
+}
+
+.encontranos__icons {
+  width: 30px;
+  height: 30px;
+  border-radius: 70px;
+}
+
+.encontranos {
+  font-family: "Lobster", "cursive";
+  text-align: center;
+  font-size: 60px;
+  color: #030303;
+  padding: 10px;
+  text-transform: none;
+  border: none;
+  transition: all 2s;
+}
+
+.encontranos:hover {
+  color: rgba(228, 13, 13, 0.733);
+}
+
+.encontranos::before {
+  content: 📍;
+}
+
+.encontranos__informacion {
+  color: #030303;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.maps {
+  width: 600px;
+  height: 450px;
+}
+
+/* Edit de contenido de nosotros.html */
+.tituloQuienesSomos {
+  font-family: "Merriweather", serif;
+  font-size: 80px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.parrafoQuienesSomos {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.tituloAbout {
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px #030303;
+}
+
+.parrafoAbout {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  -webkit-text-stroke: 1px #030303;
+}
+
+.imagesAbout {
+  height: 600px;
+}
+
+/* edit de contenido de productos.html*/
+.tituloProducto {
+  color: #0c0c0c;
+  text-shadow: #272727;
+  font-size: 70px;
+  font-style: oblique;
+  text-transform: initial;
+  border: 5px double black;
+  padding: 10px;
+}
+
+.nombreDelProducto {
+  font-family: "Girassol", "cursive";
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #0c0c0c;
+}
+
+.contenidoDelProducto {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+  color: #0c0c0c;
+}
+
+.imagenDeLosProductos {
+  width: 100%;
+  height: 30em;
+}
+
+/* Import desde base */
+/* Media Queries para celular*/
+@media only screen and (max-width: 640px) {
+  /*Pagina contacto.html  */
+  .tituloContacto {
+    font-size: 40px;
+  }
+
+  .encontranos {
+    font-size: 35px;
+    margin-right: 10px;
+  }
+
+  .maps {
+    width: 500px;
+    height: 250px;
+  }
+
+  .formulario {
+    width: 30em;
+  }
+
+  /*FIN pagina contacto.html */
+  /* Pagina index.html */
+  .homeMarca {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .motivacion {
+    height: 25em;
+  }
+
+  .homeEslogan {
+    font-size: 35px;
+  }
+
+  .motivacion__frase {
+    font-size: 50px;
+    word-spacing: 1px;
+  }
+
+  /*Fin de pagina index.html */
+  /* Pagina nosotros.html */
+  .tituloQuienesSomos {
+    font-size: 50px;
+  }
+
+  .parrafoQuienesSomos {
+    font-size: 20px;
+  }
+
+  .tituloAbout {
+    font-size: 20px;
+  }
+
+  .parrafoAbout {
+    font-size: 14px;
+  }
+
+  .imagesAbout {
+    height: 300px;
+  }
+
+  /* Fin de pagina nosotros.html */
+  /* Pagina productos.html */
+  .tituloProducto {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .nombreDelProducto {
+    font-size: 30px;
+  }
+
+  .contenidoDelProducto {
+    font-size: 14px;
+  }
+
+  .imagenDeLosProductos {
+    width: 100%;
+    height: 20em;
+  }
+
+  /* fin de pagina productos.html */
+}
+/* Media queries para tablet  */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Edicion general de footer */
+  .informacionEmpresaFooter {
+    font-size: 0.5em;
+  }
+
+  /*FIN edicion general footer */
+  /*Pagina contacto.html  */
+  .tituloContacto {
+    font-size: 50px;
+  }
+
+  .encontranos {
+    font-size: 45px;
+    margin-right: 10px;
+  }
+
+  .maps {
+    width: 500px;
+    height: 450px;
+  }
+
+  /*FIN pagina contacto.html */
+  /* Pagina index.html */
+  .homeMarca {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .motivacion {
+    height: 35em;
+  }
+
+  .homeEslogan {
+    font-size: 45px;
+  }
+
+  .motivacion__frase {
+    font-size: 60px;
+    word-spacing: 1px;
+  }
+
+  /*Fin de pagina index.html */
+  /* Pagina nosotros.html */
+  .tituloQuienesSomos {
+    font-size: 60px;
+  }
+
+  .parrafoQuienesSomos {
+    font-size: 30px;
+  }
+
+  .tituloAbout {
+    font-size: 25px;
+  }
+
+  .parrafoAbout {
+    font-size: 20px;
+  }
+
+  .imagesAbout {
+    height: 500px;
+  }
+
+  /* Fin de pagina nosotros.html */
+  /* Pagina productos.html */
+  .tituloProducto {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nombreDelProducto {
+    font-size: 32px;
+  }
+
+  .contenidoDelProducto {
+    font-size: 17px;
+  }
+
+  .imagenDeLosProductos {
+    width: 100%;
+    height: 30em;
+  }
+
+  /* Fin de pagina productos.html */
+}
+
+/*# sourceMappingURL=style.css.map */

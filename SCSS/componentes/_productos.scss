@@ -1,0 +1,34 @@
+@import '../base/maps';
+@import '../base/operadores';
+/* edit de contenido de productos.html*/
+
+.tituloProducto{
+    color: map-get($productos, letter);
+    text-shadow: map-get($productos, sombra);
+    font-size: $size;
+    font-style: oblique;
+    text-transform: initial;
+    border: map-get($productos, borde);
+    padding: $padding / 2;
+}
+
+
+.nombreDelProducto{
+    font-family: 'Girassol', 'cursive';
+    font-size: $size /2;
+    text-transform:map-get($productos, transform);
+    color: map-get($productos, letter);
+}
+
+
+.contenidoDelProducto{
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    color: map-get($productos, letter);
+}
+
+
+.imagenDeLosProductos{
+    width:100%;
+    height:30em;
+}

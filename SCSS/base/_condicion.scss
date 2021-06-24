@@ -1,0 +1,11 @@
+@import'list';
+
+@mixin condicion($color) {
+    color: $color;
+
+    @if $color == white {
+     -webkit-text-stroke: 1px nth($colores, 2);
+    } @else{
+        -webkit-text-stroke: none;
+    }
+}

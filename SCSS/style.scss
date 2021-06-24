@@ -1,0 +1,18 @@
+/* Import desde componentes */
+@import 'componentes/header';
+@import'componentes/footer';
+@import 'componentes/body';
+@import 'componentes/redesfixed';
+@import 'componentes/home';
+@import 'componentes/contacto';
+@import 'componentes/nosotros';
+@import 'componentes/productos';
+
+
+/* Import desde base */
+@import 'base/query';
+@import 'base/mixin';
+@import 'base/list';
+@import'base/condicion';
+@import 'base/maps';
+@import 'base/operadores';

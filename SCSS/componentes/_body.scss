@@ -1,0 +1,17 @@
+@import'../base/list';
+@import '../base/maps';
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+  
+
+/*Edicion de body general*/
+body{
+    background-image: url(../images/fondo.jpg);
+    background-size: map-get($body, back-size);  
+    color: map-get($body, letter);
+    background-color:map-get($body, back-color);
+}
+

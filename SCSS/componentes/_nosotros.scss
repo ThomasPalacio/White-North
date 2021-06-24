@@ -1,0 +1,30 @@
+@import'../base/mixin';
+@import'../base/condicion';
+@import'../base/operadores';
+
+/* Edit de contenido de nosotros.html */
+
+.tituloQuienesSomos{
+    @include tipografiaTitulo($size +10, 800);
+}
+
+.parrafoQuienesSomos{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: ($size / 2)-5;
+    text-align: center;
+}
+
+.tituloAbout{
+    @include tipografiaTitulo(($size / 2)+5, 600); 
+    @include condicion(white);
+}
+.parrafoAbout{
+    @include tipografiaTitulo(($size / 2)-5, 600);
+    @include condicion(white);
+}
+
+.imagesAbout{
+    height: $ancho +100;
+}
+
+

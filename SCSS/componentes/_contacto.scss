@@ -1,0 +1,47 @@
+@import'../base/mixin';
+@import '../base/list';
+
+/* Edit de contenido de contacto.html */
+
+.tituloContacto{
+    @include tipografiaContacto(uppercase, 10px solid black);
+
+}
+
+.tituloContacto::after{
+    content: nth($emojis, 1 );
+}
+
+.tituloContacto::before{
+    content: nth($emojis, 1 );
+}
+
+.formulario{
+    width: 50em;
+}
+
+.encontranos__icons{
+    @include icons;
+} 
+
+.encontranos{
+    @include tipografiaContacto(none,none);
+    transition: all 2s;
+}
+.encontranos:hover{
+    color: nth($colores, 1);
+}
+
+.encontranos::before{
+    content: nth($emojis, 2);
+}
+.encontranos__informacion{
+   @include tipografiaInformacion(20px);
+}
+
+.maps{
+    width:600px; 
+    height:450px;
+}
+
+

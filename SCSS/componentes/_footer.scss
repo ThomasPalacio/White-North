@@ -1,0 +1,30 @@
+@import '../base/mixin';
+@import'../base/list';
+@import'../base/condicion';
+/* Edicion general de footer */
+
+footer{
+    background: linear-gradient(to top, rgb(199, 199, 199),  rgb(255, 255, 255) );
+    margin-top: 10px;
+}
+
+.footer__icons{
+    @include icons;
+}
+
+.footer__logo{
+    width:70px; 
+    height:55px;
+    border-radius: 4px;
+}
+.footer_marca{
+    @include condicion(white);
+    @include tipografiaLogo(35px);
+}
+.footer_marca::first-letter{
+    color: nth($colores , 2 );
+}
+
+.footer__informacion{
+    @include tipografiaInformacion(14px);
+}

@@ -1,0 +1,188 @@
+/* Media Queries para celular*/
+@media only screen and (max-width: 640px) {
+
+    /*Pagina contacto.html  */
+    .tituloContacto{
+        font-size: 40px;
+    }
+    
+    .encontranos{
+        font-size: 35px;
+        margin-right: 10px;
+    }
+
+    .maps{
+        width:500px; 
+        height:250px;
+    }
+    .formulario{
+        width: 30em;
+    }
+    /*FIN pagina contacto.html */
+
+    
+    /* Pagina index.html */
+
+    .homeMarca{
+        font-size: 50px;
+        text-align: center;
+    }
+    .motivacion{
+        height: 25em;
+    }
+    .homeEslogan{
+        font-size: 35px;
+    }
+    .motivacion__frase{
+        font-size: 50px;
+        word-spacing: 1px;
+    }
+    /*Fin de pagina index.html */
+
+
+ /* Pagina nosotros.html */   
+
+    .tituloQuienesSomos{
+        font-size: 50px;
+    }
+    .parrafoQuienesSomos{
+        font-size:20px;
+    }
+    .tituloAbout{
+        font-size: 20px;
+    }
+    .parrafoAbout{
+        font-size: 14px;
+    }
+    .imagesAbout{
+        height: 300px;
+    }
+    /* Fin de pagina nosotros.html */   
+
+
+    
+    /* Pagina productos.html */
+    
+    .tituloProducto{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .nombreDelProducto{
+        font-size: 30px;
+    }
+    .contenidoDelProducto{
+        font-size: 14px;
+    }
+    .imagenDeLosProductos{
+        width: 100%;
+        height: 20em;
+    }
+    /* fin de pagina productos.html */
+}
+
+
+
+
+
+
+/* Media queries para tablet  */
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Edicion general de footer */
+    
+    .informacionEmpresaFooter{
+        font-size: 0.5em;
+    }
+    
+    /*FIN edicion general footer */
+
+
+
+    /*Pagina contacto.html  */
+   
+    .tituloContacto{
+        font-size: 50px;
+    }
+    .encontranos{
+        font-size: 45px;
+        margin-right: 10px;
+    }
+
+    .maps{
+        width:500px; 
+        height:450px;
+    }
+    /*FIN pagina contacto.html */
+
+    
+    /* Pagina index.html */
+
+    .homeMarca{
+        font-size: 60px;
+        text-align: center;
+    }
+    .motivacion{
+        height: 35em;
+    }
+    .homeEslogan{
+        font-size: 45px;
+    }
+    .motivacion__frase{
+        font-size: 60px;
+        word-spacing: 1px;
+    }
+    
+    /*Fin de pagina index.html */
+
+
+ /* Pagina nosotros.html */   
+
+    .tituloQuienesSomos{
+        font-size: 60px;
+    }
+
+    .parrafoQuienesSomos{
+        font-size: 30px;
+    }
+
+    .tituloAbout{
+        font-size: 25px;
+    }
+    .parrafoAbout{
+        font-size: 20px;
+    }
+    .imagesAbout{
+        height: 500px;
+    }
+    
+    /* Fin de pagina nosotros.html */   
+
+
+    
+    /* Pagina productos.html */
+    
+    .tituloProducto{
+        font-size: 40px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nombreDelProducto{
+        font-size: 32px;
+    }
+    .contenidoDelProducto{
+        font-size: 17px;
+    }
+    .imagenDeLosProductos{
+        width: 100%;
+        height: 30em;
+    }
+    /* Fin de pagina productos.html */
+}
