@@ -24,7 +24,7 @@
 <p>cd WhiteNorth</p>
 
 <h4>Luego para instalar las dependencias:</h4>
-<p>cd WhiteNorth</p>
+<p>npm install</p>
 <h4>Por ultimo se abre index.html ya se puede ver el proyecto.</h4>
 <p></p>
 
