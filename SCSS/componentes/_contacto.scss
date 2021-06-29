@@ -9,7 +9,7 @@
 }
 
 .tituloContacto::after{
-    content: nth($emojis, 1 );
+    content: nth($emojis , 1 );
 }
 
 .tituloContacto::before{

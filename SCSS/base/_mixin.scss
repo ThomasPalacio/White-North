@@ -10,7 +10,7 @@
 @mixin tipografiaContacto($transform,$border) {
     font-family: 'Lobster', 'cursive';
     text-align: center;
-    font-size: 60px;
+    font-size: 100px;
     color: nth($colores, 2);
     padding: 10px;
     text-transform: $transform;
