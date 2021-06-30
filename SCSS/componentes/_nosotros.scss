@@ -17,14 +17,14 @@
 }
 
 .tituloAbout{
-    @include tipografiaTitulo(($size / 2)+5, 600); 
+    @include tipografiaTitulo(80px, 600); 
     color: nth($colores, 2);
-    -webkit-text-stroke: 1px rgb(7, 253, 253);
+    -webkit-text-stroke: 1px nth($colores, 4 );
 }
 .parrafoAbout{
-    @include tipografiaTitulo(($size / 2)-5, 600);
+    @include tipografiaTitulo(($size / 2), 600);
     color: nth($colores, 4);
-    -webkit-text-stroke: 0.5px rgb(7, 253, 253);
+    -webkit-text-stroke: 1px nth($colores, 2 );
 }
 
 

@@ -248,20 +248,20 @@ body {
 
 .tituloAbout {
   font-family: "Merriweather", serif;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 600;
   text-align: center;
   color: #030303;
-  -webkit-text-stroke: 1px #07fdfd;
+  -webkit-text-stroke: 1px #f8f8f8;
 }
 
 .parrafoAbout {
   font-family: "Merriweather", serif;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   text-align: center;
   color: #f8f8f8;
-  -webkit-text-stroke: 0.5px #07fdfd;
+  -webkit-text-stroke: 1px #030303;
 }
 
 .imagesAbout {
