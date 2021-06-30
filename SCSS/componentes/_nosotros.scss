@@ -6,25 +6,28 @@
 
 .tituloQuienesSomos{
     @include tipografiaTitulo($size +10, 800);
+    -webkit-text-stroke: 1px blanchedalmond;
 }
 
 .parrafoQuienesSomos{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: ($size / 2)-5;
-    text-align: center;
+    text-align: justify;
+    -webkit-text-stroke: 0.3px blanchedalmond;
 }
 
 .tituloAbout{
     @include tipografiaTitulo(($size / 2)+5, 600); 
-    @include condicion(white);
+    color: nth($colores, 2);
+    -webkit-text-stroke: 1px rgb(7, 253, 253);
 }
 .parrafoAbout{
     @include tipografiaTitulo(($size / 2)-5, 600);
-    @include condicion(white);
+    color: nth($colores, 4);
+    -webkit-text-stroke: 0.5px rgb(7, 253, 253);
 }
+
 
 .imagesAbout{
     height: $ancho +100;
 }
-
-

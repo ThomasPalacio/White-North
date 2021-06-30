@@ -8,17 +8,6 @@
 
 }
 
-.tituloContacto::after{
-    content: nth($emojis , 1 );
-}
-
-.tituloContacto::before{
-    content: nth($emojis, 1 );
-}
-
-.formulario{
-    width: 50em;
-}
 
 .encontranos__icons{
     @include icons;
@@ -32,9 +21,6 @@
     color: nth($colores, 1);
 }
 
-.encontranos::before{
-    content: nth($emojis, 2);
-}
 .encontranos__informacion{
    @include tipografiaInformacion(20px);
 }

@@ -17,6 +17,14 @@ footer {
   margin-top: 10px;
 }
 
+.footerRedes {
+  color: #030303;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .footer__icons {
   width: 30px;
   height: 30px;
@@ -119,6 +127,21 @@ body {
   color: #030303;
 }
 
+.tituloDestacados {
+  color: rgba(228, 13, 13, 0.952);
+  font-family: "Pattaya", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.tituloDestacados:hover {
+  color: #030303;
+}
+
+.tituloDestacados::before {
+  content: "📂";
+}
+
 .home__destacados {
   width: 300px;
   height: 300px;
@@ -134,7 +157,7 @@ body {
 .motivacion {
   background-image: url(../images/motivacion.jpg);
   background-attachment: local;
-  height: 30em;
+  height: 25em;
   background-repeat: no-repeat;
   box-shadow: 15px 10px 5px black;
   background-position: center;
@@ -144,8 +167,8 @@ body {
 .motivacion__frase {
   color: #030303;
   font-family: "Pattaya", sans-serif;
-  font-size: 60px;
-  width: 80%;
+  font-size: 75px;
+  width: 100%;
   font-weight: bolder;
   text-align: center;
 }
@@ -166,23 +189,11 @@ body {
 .tituloContacto {
   font-family: "Lobster", "cursive";
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
   color: #030303;
   padding: 10px;
   text-transform: uppercase;
   border: 10px solid black;
-}
-
-.tituloContacto::after {
-  content: ⚪;
-}
-
-.tituloContacto::before {
-  content: ⚪;
-}
-
-.formulario {
-  width: 50em;
 }
 
 .encontranos__icons {
@@ -194,7 +205,7 @@ body {
 .encontranos {
   font-family: "Lobster", "cursive";
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
   color: #030303;
   padding: 10px;
   text-transform: none;
@@ -203,11 +214,7 @@ body {
 }
 
 .encontranos:hover {
-  color: rgba(228, 13, 13, 0.733);
-}
-
-.encontranos::before {
-  content: 📍;
+  color: rgba(228, 13, 13, 0.952);
 }
 
 .encontranos__informacion {
@@ -229,12 +236,14 @@ body {
   font-size: 80px;
   font-weight: 800;
   text-align: center;
+  -webkit-text-stroke: 1px blanchedalmond;
 }
 
 .parrafoQuienesSomos {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 30px;
-  text-align: center;
+  text-align: justify;
+  -webkit-text-stroke: 0.3px blanchedalmond;
 }
 
 .tituloAbout {
@@ -242,8 +251,8 @@ body {
   font-size: 40px;
   font-weight: 600;
   text-align: center;
-  color: white;
-  -webkit-text-stroke: 1px #030303;
+  color: #030303;
+  -webkit-text-stroke: 1px #07fdfd;
 }
 
 .parrafoAbout {
@@ -251,8 +260,8 @@ body {
   font-size: 30px;
   font-weight: 600;
   text-align: center;
-  color: white;
-  -webkit-text-stroke: 1px #030303;
+  color: #f8f8f8;
+  -webkit-text-stroke: 0.5px #07fdfd;
 }
 
 .imagesAbout {
@@ -327,6 +336,7 @@ body {
 
   .motivacion__frase {
     font-size: 50px;
+    width: 100%;
     word-spacing: 1px;
   }
 
@@ -418,7 +428,7 @@ body {
   }
 
   .motivacion__frase {
-    font-size: 60px;
+    font-size: 68px;
     word-spacing: 1px;
   }
 

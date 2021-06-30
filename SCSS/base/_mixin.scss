@@ -10,14 +10,14 @@
 @mixin tipografiaContacto($transform,$border) {
     font-family: 'Lobster', 'cursive';
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
     color: nth($colores, 2);
     padding: 10px;
     text-transform: $transform;
     border: $border;
 }
 
-@mixin tipografiaInformacion($tamaño){
+@mixin tipografiaInformacion($tamaño) {
     color: nth($colores, 2);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: $tamaño;
@@ -47,7 +47,7 @@
 @mixin tipografiaFrase($font) {
     font-family: 'Pattaya', sans-serif;
     font-size: $font;
-    width: 80%;
+    width: 100%;
     font-weight:bolder;
     text-align:center;
 }
@@ -57,4 +57,10 @@
     font-size: $font;
     font-weight: $bold;
     text-align: center;
+}
+
+@mixin tipografiaDestacados($font) {
+    font-family: 'Pattaya', sans-serif;
+    font-size: $font;
+    font-weight:bolder;
 }

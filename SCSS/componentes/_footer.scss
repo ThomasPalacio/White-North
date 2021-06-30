@@ -8,6 +8,9 @@ footer{
     margin-top: 10px;
 }
 
+.footerRedes{
+ @include tipografiaInformacion(30px);
+}
 .footer__icons{
     @include icons;
 }

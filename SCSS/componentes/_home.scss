@@ -19,6 +19,16 @@
     color: nth($colores, 2);
 }
 
+.tituloDestacados{ 
+   color: nth($colores, 1 );
+   @include tipografiaDestacados(50px);
+}
+.tituloDestacados:hover{
+    color: nth($colores, 2 );
+}
+.tituloDestacados::before {
+    content: "📂";
+  }
 
 .home__destacados{
     width:300px;
@@ -36,12 +46,12 @@
 
 .motivacion{
     background-image: url(../images/motivacion.jpg);
-    @include propiedadBackground(30em);
+    @include propiedadBackground(25em);
 }
 
 .motivacion__frase{
     color: nth($colores, 2);
-    @include tipografiaFrase(60px);
+    @include tipografiaFrase(75px);
 }
 .motivacion__frase:hover{
     animation: fraseMotivacion 3s;
@@ -51,7 +61,7 @@
         color: #f0efee;
     }
     to{
-        color: #f1af09;
+        color:nth($colores, 6 );
     }
 }
 
