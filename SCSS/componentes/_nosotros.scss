@@ -7,6 +7,7 @@
 .tituloQuienesSomos{
     @include tipografiaTitulo($size +10, 800);
     -webkit-text-stroke: 1px blanchedalmond;
+    background-color: nth($colores, 8 );
 }
 
 .parrafoQuienesSomos{
@@ -23,11 +24,12 @@
 }
 .parrafoAbout{
     @include tipografiaTitulo(($size / 2), 600);
-    color: nth($colores, 4);
-    -webkit-text-stroke: 1px nth($colores, 2 );
+    color: nth($colores, 2);
+    -webkit-text-stroke: 1px nth($colores, 4 );
 }
 
 
 .imagesAbout{
     height: $ancho +100;
+    opacity: 0.55;
 }
